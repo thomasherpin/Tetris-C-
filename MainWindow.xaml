@@ -1,0 +1,41 @@
+﻿<Window x:Class="Tetris.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tetris"
+        mc:Ignorable="d"
+        Title="Tetris Ludovic et Thomas" Height="597.072" Width="525" KeyDown="Window_KeyDown">
+    <Grid Background="#FFE2E2E2">
+        <StackPanel HorizontalAlignment="Left" Height="125.073" Margin="327,36.999,0,0" VerticalAlignment="Top" Width="180" d:LayoutOverrides="VerticalAlignment">
+            <StackPanel Height="139.666">
+                <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="NEXT" Cursor="Arrow" FontFamily="Stencil" HorizontalAlignment="Center" Height="38" Margin="75,0"/>
+                <Canvas x:Name="CanFormeSuivante" Height="103" Width="180"/>
+            </StackPanel>
+        </StackPanel>
+        <Grid x:Name="GrilleJeu" HorizontalAlignment="Left" Height="546" Margin="10,10,0,0" VerticalAlignment="Top" Width="303" RenderTransformOrigin="0.5,0.5" Background="Gainsboro">
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+        </Grid>
+        <TextBlock x:Name="GameOver" Margin="51.58,108.223,0,0" TextWrapping="WrapWithOverflow" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="60" Height="409.474" Width="331.492" FontFamily="Goudy Stout" FontWeight="ExtraBold" FontStyle="Italic" TextTrimming="CharacterEllipsis" FontStretch="Condensed" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="10" AngleY="5"/>
+                    <RotateTransform Angle="7.348"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Game Over"/><LineBreak/><Run/><LineBreak/><Run FontSize="40" Text="Joyeux Noel"/></TextBlock>
+        <Button x:Name="buJouer" Content="Recommencer" HorizontalAlignment="Right" Height="27.739" Margin="0,0,23.667,10" VerticalAlignment="Bottom" Width="136.666" Click="buJouer_Click"/>
+        <TextBlock x:Name="Score" Height="20.5" Margin="0,0,127.167,82.572" TextWrapping="Wrap" Text="Score" VerticalAlignment="Bottom" Width="33.166" HorizontalAlignment="Right"/>
+        <TextBox x:Name="AffScore" HorizontalAlignment="Right" Height="20.5" Margin="0,0,10,82.572" TextWrapping="Wrap" Text="{Binding jeu.Score}" VerticalAlignment="Bottom" Width="89.5" IsEnabled="False" TextAlignment="Right"/>
+        <TextBlock x:Name="affNiveau" HorizontalAlignment="Right" Height="35" Margin="0,0,10,118.072" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom" Width="150.333" TextAlignment="Center" FontSize="29.333" FontFamily="Segoe WP Black"/>
+
+    </Grid>
+</Window>

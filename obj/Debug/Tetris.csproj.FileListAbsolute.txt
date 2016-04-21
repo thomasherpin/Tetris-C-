@@ -1,0 +1,14 @@
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\bin\Debug\Tetris.exe.config
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\bin\Debug\Tetris.exe
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\bin\Debug\Tetris.pdb
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\obj\Debug\Tetris.csprojResolveAssemblyReference.cache
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\obj\Debug\MainWindow.g.cs
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\obj\Debug\App.g.cs
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\obj\Debug\Tetris_MarkupCompile.cache
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\obj\Debug\Tetris_MarkupCompile.lref
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\obj\Debug\MainWindow.baml
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\obj\Debug\Tetris.g.resources
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\obj\Debug\Tetris.Properties.Resources.resources
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\obj\Debug\Tetris.csproj.GenerateResource.Cache
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\obj\Debug\Tetris.exe
+F:\EPSI\Cours\2015-2016\C#\Tetris\Tetris-master\obj\Debug\Tetris.pdb
